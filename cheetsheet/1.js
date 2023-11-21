@@ -19,5 +19,18 @@ let [ first, second] = ["first", "second"];
 console.log(first);
 console.log(second);
 
+let x = 10,
+    y = 20;
 
+let obj = { x, y};
 
+console.log(obj);
+
+let person = {
+    name: "Alice",
+    greet: function () {
+        console.log(`My name is ${this.name}`);
+    }
+}
+
+person.greet();
