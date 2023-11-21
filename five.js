@@ -7,5 +7,18 @@ let area = {
     }
 }
 
+let circle = {
+    r : 10,
+    pi : 3.14,
+    menseki : function () {
+        let result = this.r * this.r * this.pi;
+        console.log(result);    
+    }
+}
+
+// BMIを計算する
+
 area.menseki();
+circle.menseki();
+
 
