@@ -12,10 +12,14 @@ let obj = {
 // console.log(obj.name);
 // console.log(obj.age);
 
+let nullValue = null;
 
+console.log(nullValue);
 
 let myVar;
 console.log(myVar);
+
+
 
 
 
