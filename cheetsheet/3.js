@@ -36,6 +36,28 @@ function doSomething() {
 console.log("doSomething");
 console.log(doSomething());
 
+let person = "John";
+console.log(`Hello ${person}`);
+
+
+let [first, second] = ["first", "second"];
+console.log(first);
+console.log(second);
+
+let x = 10, y = 20;
+let zahyo = {x , y};
+console.log(zahyo);
+console.log(`x = ${zahyo.x}, y = ${zahyo.y}`);
+
+zahyo.x = 20;
+console.log(`x = ${zahyo.x}, y = ${zahyo.y}`);
+
+
+
+
+
+
+
 
 
 
