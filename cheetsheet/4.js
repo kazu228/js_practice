@@ -20,6 +20,9 @@ console.log('doSomething => ' + doSomething() );
 obj = { a: 10 };
 console.log('objにないプロパティを呼び出した時' + obj.b);
 
+let name = 'John';
+console.log(`Hello ${name}`);
+
 
 
 
