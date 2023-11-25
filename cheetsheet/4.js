@@ -23,6 +23,13 @@ console.log('objにないプロパティを呼び出した時' + obj.b);
 let name = 'John';
 console.log(`Hello ${name}`);
 
+let [ first, second, third ] = ['first', 'second', 'third'];
+
+console.log(first);
+console.log(second);
+console.log(third);
+
+
 
 
 
