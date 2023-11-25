@@ -29,6 +29,16 @@ console.log(first);
 console.log(second);
 console.log(third);
 
+let person = {
+    boys_name : 'kazu',
+    age : 25,
+    greeting : function () {
+        console.log(`I am ${this.boys_name}. I am ${this.age} years old. Nicc to meet you.`);
+    }
+}
+
+person.greeting();
+
 
 
 
