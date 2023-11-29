@@ -15,5 +15,14 @@ console.log(c);
 c = a / b;
 console.log(c);
 
+c = b % a;
+console.log(c);
 
+let object = {
+    name : 'kazu',
+    age : 25
+};
+
+console.log(object.name);
+console.log(object.age);
 
