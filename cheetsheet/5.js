@@ -38,3 +38,20 @@ let person = {
     }
 }
 person.say();
+
+let sankaku = {
+    teihen : 10,
+    takasa : 5,
+    menseki : function () {
+        return this.teihen * this.takasa * 0.5;
+    }
+}
+
+console.log(sankaku.menseki());
+
+let num = 7;
+if (num % 2 == 0) {
+    console.log('偶数');
+} else {
+    console.log('奇数');
+}
