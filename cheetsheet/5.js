@@ -26,3 +26,15 @@ let object = {
 console.log(object.name);
 console.log(object.age);
 
+console.log(`I am ${ object.name }.`);
+console.log(`I am ${object.age} years old.`);
+
+
+let person = {
+    name : 'kazu228',
+    age : 25,
+    say : function () {
+        console.log(`I am ${ this.name }. I am ${ this.age } years old.`);
+    }
+}
+person.say();
