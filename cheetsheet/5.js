@@ -49,9 +49,21 @@ let sankaku = {
 
 console.log(sankaku.menseki());
 
-let num = 7;
+let num = 8;
 if (num % 2 == 0) {
     console.log('偶数');
 } else {
     console.log('奇数');
 }
+
+let [ n, m ] = [10, 20];
+
+console.log(n);
+console.log(m);
+
+let obj = {n, m};
+
+console.log(obj);
+
+console.log(n);
+console.log(m);
