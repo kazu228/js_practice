@@ -9,4 +9,6 @@ console.log(obj.b);
 
 function doNothing() {}
 
+console.log(doNothing());
+
 
