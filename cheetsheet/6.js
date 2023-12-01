@@ -19,6 +19,10 @@ console.log(nullValue);
 
 console.log(undefinedValue);
 
+let name = 'John';
+
+console.log(`Hello ${ name } !!`);
+
 
 
 
