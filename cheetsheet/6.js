@@ -11,4 +11,14 @@ function doNothing() {}
 
 console.log(doNothing());
 
+let nullValue = null;
+
+let undefinedValue;
+
+console.log(nullValue);
+
+console.log(undefinedValue);
+
+
+
 
