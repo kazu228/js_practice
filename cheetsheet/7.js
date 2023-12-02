@@ -42,6 +42,30 @@ function doNothing() {
 
 console.log(doNothing());
 
+let name = 'John';
+
+console.log(`Hello ${ name }`);
+
+
+let [ first, second , third ] = [ 'first', 'second', 'third' ];
+
+console.log(first);
+console.log(second);
+console.log(third);
+
+let x = 10;
+let y = 20;
+
+let obj_li = { x, y};
+
+console.log(obj_li);
+
+
+
+
+
+
+
 
 
 
