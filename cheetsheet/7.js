@@ -60,6 +60,28 @@ let obj_li = { x, y};
 
 console.log(obj_li);
 
+let person = {
+    name : "Alice",
+    greeting : function () {
+        console.log(`Hello My name is ${ this.name }`);
+    },
+};
+
+person.greeting();
+
+let num = 10;
+
+if (num > 0) {
+    console.log("Positive number");
+} else if (num < 0) {
+    console.log('Negative number');
+} else {
+    console.log("Zero");
+}
+
+
+
+
 
 
 
