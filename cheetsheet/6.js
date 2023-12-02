@@ -34,6 +34,14 @@ if (total >= 100) {
     console.log('これは、安い。');
 }
 
+let [ first, second ] = ['first', 'second'];
+
+console.log(first);
+console.log(second);
+
+
+
+
 
 
 
