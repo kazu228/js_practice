@@ -79,6 +79,11 @@ if (num > 0) {
     console.log("Zero");
 }
 
+for (let i = 0; i < 5; i++ ) {
+    console.log(i);
+}
+
+
 
 
 
