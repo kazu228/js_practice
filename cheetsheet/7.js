@@ -83,10 +83,24 @@ for (let i = 0; i < 5; i++ ) {
     console.log(i);
 }
 
+console.log(greeting);
+
+for (let j = 0; j < 5; j ++ ) {
+    console.log(greeting);
+}
 
 
+function is_odd_or_even(num) {
+    if(num % 2 == 0) {
+        return 'even';
+    } else {
+        return 'odd';
+    }
+}
 
-
+for (let k = 0; k < 10; k++) {
+    console.log(is_odd_or_even(k));
+}
 
 
 
