@@ -27,6 +27,31 @@ let nullValue = null;
 
 console.log(nullValue);
 
+let undefinedValue;
+
+console.log(undefinedValue);
+
+const object = { a : 'A' };
+
+console.log(object.a);
+console.log(object.b);
+
+function doNothing() {
+
+}
+
+console.log(doNothing());
+
+
+
+
+
+
+
+
+
+
+
 
 
 
