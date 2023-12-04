@@ -36,6 +36,10 @@ function funcNothing() {}
 // undefined
 console.log(funcNothing());
 
+let nullValue = null;
+
+console.log(nullValue);
+
 
 
 
