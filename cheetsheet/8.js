@@ -44,6 +44,8 @@ let name = 'John';
 
 console.log(`Hello ${name}`);
 
+let [ first, second, third ] = [ 'first', 'second', 'third'];
+
 
 
 
