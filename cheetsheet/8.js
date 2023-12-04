@@ -40,6 +40,9 @@ let nullValue = null;
 
 console.log(nullValue);
 
+let name = 'John';
+
+console.log(`Hello ${name}`);
 
 
 
