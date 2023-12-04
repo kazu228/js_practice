@@ -26,6 +26,16 @@ console.log(obj2.abc);    // OK
 // undefined
 console.log(obj.b);
 
+let undefinedValue;
+
+// undefined
+console.log(undefinedValue);
+
+function funcNothing() {}
+
+// undefined
+console.log(funcNothing());
+
 
 
 
