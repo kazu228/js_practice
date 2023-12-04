@@ -47,6 +47,20 @@ console.log(`Hello ${name}`);
 let [ first, second, third ] = [ 'first', 'second', 'third'];
 
 
+console.log(first);
+console.log(second);
+console.log(third);
+
+let x = 10;
+let y = 20;
+let a = 30;
+
+let z = { x, y, a };
+
+console.log(z);
+console.log(a);
+
+
 
 
 
