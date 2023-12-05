@@ -29,5 +29,16 @@ function doNothing() {}
 
 console.log(doNothing());
 
+let [ first, second, third ] = [ 1, 2, 3];
+
+console.log(first);
+console.log(third);
+
+let a = 100;
+let b = 200;
+
+let ex = { a, b };
+
+console.log(ex);
 
 
