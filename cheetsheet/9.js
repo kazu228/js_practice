@@ -41,4 +41,11 @@ let ex = { a, b };
 
 console.log(ex);
 
+for (let i = 0; i < 5; i++ ) {
+    console.log('Hello JS');
+};
+
+
+
+
 
