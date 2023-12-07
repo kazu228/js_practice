@@ -16,3 +16,10 @@ function doNothing() {}
 
 console.log(doNothing());
 
+let name = 'John';
+let msg = `Hello ${ name }`;
+
+console.log(msg);
+
+
+
