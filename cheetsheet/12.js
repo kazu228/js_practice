@@ -16,3 +16,8 @@ function doNothing() {}
 
 console.log(doNothing());
 
+let nullValue = null;
+
+
+console.log(nullValue);
+
