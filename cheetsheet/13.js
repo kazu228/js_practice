@@ -7,4 +7,9 @@ console.log(first);
 console.log(second);
 console.log(third);
 
+let name = 'John';
+let msg = `Hello , ${ name }`;
+
+console.log(msg);
+
 
