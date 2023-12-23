@@ -20,4 +20,10 @@ function doNothing() {}
 
 console.log(doNothing());
 
+function hello(name) {
+    return `Hello ${ name }`; 
+}
 
+let name = 'John';
+
+console.log(hello(name));
