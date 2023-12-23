@@ -11,3 +11,13 @@ console.log(objA.b);
 objA.b = 'B';
 
 console.log(objA.b);
+
+let a;
+
+console.log(a);
+
+function doNothing() {}
+
+console.log(doNothing());
+
+
